@@ -1,5 +1,11 @@
+import ToDo from './components/ToDo';
+
 function App() {
-  return <div>Starting Over</div>;
+  return (
+    <div>
+      <ToDo />
+    </div>
+  );
 }
 
 export default App;
