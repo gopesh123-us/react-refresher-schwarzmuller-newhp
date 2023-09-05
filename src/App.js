@@ -1,9 +1,11 @@
-import ToDo from './components/ToDo';
+import MainNavigation from "./components/layout/MainNavigation";
+import AllMeetupsPage from "./pages/AllMeetups";
 
 function App() {
   return (
     <div>
-      <ToDo />
+      <MainNavigation />
+      <AllMeetupsPage />
     </div>
   );
 }
