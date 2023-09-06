@@ -1,11 +1,15 @@
 import React from "react";
 import MainNavigation from "../components/layout/MainNavigation";
+import NewMeetupForm from "../components/meetups/NewMeetupForm";
+import Layout from "../components/layout/Layout";
 
 const NewMeetupPage = () => {
   return (
     <div>
       <MainNavigation />
-      New Meetup page
+      <Layout>
+        <NewMeetupForm />
+      </Layout>
     </div>
   );
 };
